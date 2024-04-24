@@ -1,0 +1,11 @@
+#第2章
+pip install numpy
+pip install matplotlib
+#第4章
+pip install pygame
+pip insatll gym
+#第5章
+pip install tqdm
+#第7章
+pip install torch
+pip install gymnasium
