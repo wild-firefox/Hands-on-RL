@@ -30,7 +30,7 @@ class Env:
         self.B_min = 0.1*self.B_max #最小ESS容量
         self.B_t = 0.1 #ESS存储容量 #得到
         self.t = 0 #小时数
-        self.day =1 #天数 #1-122 表示第1天到第122天
+        self.day =1 #天数 #1-122 表示第1天到第122天   #自设
         self.data_p_t = np.genfromtxt('./Data/solar_double.csv', delimiter=',') # [1][0]  1-365 0-23
         self.data_b_t = np.genfromtxt('./Data/base_load_modified.csv', delimiter=',') # [1][0]  1-122 0-23
         self.data_v_t = np.genfromtxt('./Data/price_modified.csv', delimiter=',',encoding='utf-8') # [1][0]  1-122 0-23
